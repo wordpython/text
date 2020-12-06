@@ -1,4 +1,7 @@
 package com.wordpython.leetbook;
+
+import org.junit.Test;
+
 /*
 只出现一次的数字
 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
@@ -14,7 +17,7 @@ package com.wordpython.leetbook;
 输出: 4
 
  */
-class Solution {
+public class 只出现一次的数字 {
     public int singleNumber(int[] nums) {
         for(int i=0;i<nums.length;i++){
             if(i==nums.length-1){
@@ -41,17 +44,10 @@ class Solution {
         int ans = nums[0];
         if (nums.length > 1) {
             for (int i = 1; i < nums.length; i++) {
-                System.out.println("前："+ans);
                 ans = ans ^ nums[i];//位运算符，异或
-                System.out.println("后："+ans);
 
             }
         }
         return ans;
-    }
-    public static void main(String[] args) {
-        int[] nums={1,2,2};
-        int i = new Solution().singleNumber1(nums);
-        System.out.println(i);
     }
 }

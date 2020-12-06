@@ -1,6 +1,6 @@
 package com.wordpython.nowcoder;
 
-public class 子数组的最大累加和 {
+public class AJ子数组的最大累加和 {
     /**
      * max sum of the subarray
      *

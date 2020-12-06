@@ -3,7 +3,7 @@ package com.wordpython.nowcoder;
 
 import java.nio.Buffer;
 
-public class 反转字符串 {
+public class AI反转字符串 {
     /**
      * 反转字符串
      * @param str string字符串

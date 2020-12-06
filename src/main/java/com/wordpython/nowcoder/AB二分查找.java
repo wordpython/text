@@ -6,7 +6,7 @@ import org.junit.Test;
  * 请实现有重复数字的有序数组的二分查找。
  * 输出在数组中第一个大于等于查找值的位置，如果数组中不存在这样的数，则输出数组长度加一。
  */
-public class 二分查找 {
+public class AB二分查找 {
     /**
      * 二分查找
      * @param n int整型 数组长度

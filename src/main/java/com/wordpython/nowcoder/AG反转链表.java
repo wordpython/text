@@ -3,7 +3,7 @@ package com.wordpython.nowcoder;
 import common.ListNode;
 import org.junit.Test;
 
-public class 反转链表 {
+public class AG反转链表 {
     //双指针
     public ListNode ReverseList(ListNode head) {
         ListNode q=null;

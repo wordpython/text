@@ -5,7 +5,7 @@ import common.ListNode;
 /**
  * 将两个有序的链表合并为一个新链表，要求新的链表是通过拼接两个链表的节点来生成的。
  */
-public class 合并有序链表 {
+public class AH合并有序链表 {
     /**
      *
      * @param l1 ListNode类

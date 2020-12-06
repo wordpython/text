@@ -13,7 +13,7 @@ import java.util.Map;
  * 输出 index1=1, index2=2
  *
  */
-public class 两数之和 {
+public class AA两数之和 {
     /**
      *
      * @param numbers int整型一维数组
